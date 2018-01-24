@@ -1,0 +1,24 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Playground for JS Code",
+  "main": "play.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "author": "benk",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "jest-cli": "^22.1.4"
+  }
+}
